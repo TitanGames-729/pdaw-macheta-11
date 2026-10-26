@@ -1,5 +1,6 @@
 body{
     font-family: "Nunito", sans-serif;
+    margin: 0;
 }
 .container {
    max-width: 960px;
@@ -10,22 +11,26 @@ body{
     color: #9D174D;
 }
 
-
-
 .top-bar{
     background-color: #2A1220;
     display: flex;
     justify-content: space-between;
     color: white;
     padding: 0 3rem;
-    font-family: "Nunito", sans-serif;
 }
 
 .navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0;
 
+}
+
+.navigation p {
+    font-size: 3vh;
+    font-weight: bold;
 }
 
 .navigation ul {
@@ -35,13 +40,21 @@ body{
 }
 
 .navigation a {
+    color: #475569;
     text-decoration: none;
 }
 
 .link-active {
-    color: #9D174D;
+    color: #9D174D !important;
     font-weight: 700;
-    text-decoration-color: #9D174D;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
+    text-decoration: underline 2px solid #9D174D !important;
+    text-underline-offset: 10px;
+}
+
+.button-fill-pink {
+    color: white !important;
+    padding: 1vh 1rem;
+    background-color: #9D174D;
+    border: none;
+    border-radius: 20px;
 }
