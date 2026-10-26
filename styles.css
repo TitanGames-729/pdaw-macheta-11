@@ -1,7 +1,16 @@
+body{
+    font-family: "Nunito", sans-serif;
+}
 .container {
    max-width: 960px;
    margin: 0 auto;     
 }
+
+.text-accent {
+    color: #9D174D;
+}
+
+
 
 .top-bar{
     background-color: #2A1220;
@@ -12,3 +21,27 @@
     font-family: "Nunito", sans-serif;
 }
 
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.link-active {
+    color: #9D174D;
+    font-weight: 700;
+    text-decoration-color: #9D174D;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
