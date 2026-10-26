@@ -291,3 +291,13 @@ body{
     font-weight: 400;
     font-size: 13px;
 }
+
+.comments-section {
+    margin-top: 70px;
+    padding-top: 60px;
+    background-color: #FFF8FB;
+}
+
+.comments-section img#recenzii {
+    margin-bottom: 32px;
+}
