@@ -254,6 +254,7 @@ body{
 
 .product-card p#rating {
     color: #F59E0B;
+    margin-bottom: 0;
 }
 
 .product-card div {
@@ -263,7 +264,7 @@ body{
 }
 
 .product-card p.bold-text {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .product-card p#price {
@@ -274,6 +275,14 @@ body{
 
 .product-card p.section-text {
     margin: 0;
+}
+
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
 }
 
 .discount {
