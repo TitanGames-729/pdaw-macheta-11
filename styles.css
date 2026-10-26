@@ -1,0 +1,14 @@
+.container {
+   max-width: 960px;
+   margin: 0 auto;     
+}
+
+.top-bar{
+    background-color: #2A1220;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0 3rem;
+    font-family: "Nunito", sans-serif;
+}
+
