@@ -61,6 +61,7 @@ body{
     background-color: #9D174D;
     border: none;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 .hero-section {
@@ -93,24 +94,6 @@ body{
     border-radius: 20px;
 }
 
-.hero-text h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: 3rem;
-    color: white;
-    text-align: center;
-}
-
-.hero-text p {
-    color: white;
-    text-align: center;
-    font-weight: 200;
-}
-
-.hero-text div#buttons {
-    display: flex;
-    gap: 20px;
-}  
-
 
 .button-fill {
     text-decoration: none;
@@ -129,4 +112,112 @@ body{
     background-color: #b4530900;
     border: solid 2px;
     border-radius: 20px;
+}
+
+.hero-text h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.hero-text p {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+}
+
+.hero-text div#buttons {
+    display: flex;
+    gap: 20px;
+}  
+
+.relative{
+    position: relative;
+}
+
+.value-props {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.value-props h3 {
+    font-family: "Raleway", sans-serif;
+    color: #9D174D;
+    font-size: 25px;
+    margin: 0px 0px;
+}
+
+.value-props > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    border-right: 1px solid #E2E8F0;
+}
+
+.value-props > div:last-child {
+    border-right: none;
+}
+
+.value-props-section {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    margin-top: 80px;
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+}
+
+.heading-text {
+    color: #9D174D;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 5px
+}
+
+.section-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    margin: 0px;
+}
+
+.section-text {
+    font-weight: 400;
+    font-size: 12px;
+    color: #64748B;
+}
+
+.card-icon {
+    display: flex;
+    background-color: #FCE4EF;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.value-card {
+    border: solid 1px #E2E8F0;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.value-props-section div#value-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
