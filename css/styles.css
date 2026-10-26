@@ -444,3 +444,17 @@ body{
     color: #111827;
     background: transparent;
 }
+
+.email-badge-icon {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 68px;
+    height: 68px;
+    background-color: #B45309;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
