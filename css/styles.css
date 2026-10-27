@@ -294,6 +294,7 @@ body{
 }
 
 .product-card {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -330,7 +331,24 @@ body{
     height: 180px;
     object-fit: cover;
     object-position: top;
-    display: block;
+    /* display: block; */
+}
+
+.product-badge {
+    /* position: absolute; */
+    background-color: #B45309;
+    border-radius: 50%;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.product-section .product-badge {
+    position: absolute;
+    left: 32px;
+    top: 20px;
 }
 
 .discount {
