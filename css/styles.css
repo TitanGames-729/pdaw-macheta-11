@@ -303,13 +303,18 @@ body{
 
 .product-card p#rating {
     color: #F59E0B;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .product-card div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 20px;
+}
+
+.product-card div#product-title {
+    margin-top: 20px;
 }
 
 .product-card p.bold-text {
@@ -324,6 +329,7 @@ body{
 
 .product-card p.section-text {
     margin: 0;
+        padding: 0px 20px;
 }
 
 .product-card img {
